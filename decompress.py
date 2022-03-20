@@ -17,7 +17,6 @@ def decompress(someString):
             else:
                 basePattern = mult*((basePattern)+pattern)
         #initial char check:
-        print("cur substring: "+someString)
         if(someString[0].isalpha()):
             outputString += someString[0]
             someString = someString[1:]
